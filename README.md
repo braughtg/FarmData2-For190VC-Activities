@@ -30,12 +30,12 @@ The following steps outline how to to get setup and then how to use this reposto
 3. Optionally rename your fork to something appropraite to your course/assignments.
 4. Optionally delete the "Instructor" branch from your fork.
 5. Copy the issues from this repository into your fork:
-   a. Fork the [git-hub-issues-import](https://github.com/IQAndreas/github-issues-import) repository.
-   b. Edit the `config.ini` to include:
-      i. Your username
-      ii. A GitHub PAT with access to your fork.
-      iii. The `braughtg/FarmData2-For190VC-Activities` as the source repository.
-      iv. Your fork as the target repository.
+   1. Fork the [git-hub-issues-import](https://github.com/IQAndreas/github-issues-import) repository.
+   2. Edit the `config.ini` to include:
+      1. Your username
+      2. A GitHub PAT with access to your fork as the password.
+      3. The `braughtg/FarmData2-For190VC-Activities` as the source repository.
+      4. Your fork as the target repository.
    c. Run `python3 gh-issues-import.py --open`
       * Sometimes this will give an authentication error after some number of issues are copied.  If it does, rerun it using specific issue numbers so that all issues are copied. E.g. `python3 gh-issues-import.py --issues 21 22 23 24` to copy issues 21, 22, 23 and 24.
 
