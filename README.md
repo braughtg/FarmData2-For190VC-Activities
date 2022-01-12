@@ -27,6 +27,7 @@ The following steps outline how to to get setup and then how to use this reposto
 
 1. Fork this repository to the location where you want students to find it.
    * Note: One fork will support up to 26 students. If you have more than 26 students you will need to have multiple repositories.
+2. Enable issues in your fork.
 3. Optionally rename your fork to something appropraite to your course/assignments.
 4. Optionally delete the "Instructor" branch from your fork.
 5. Copy the issues from this repository into your fork:
